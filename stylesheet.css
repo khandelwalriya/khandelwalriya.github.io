@@ -1,5 +1,189 @@
-div{
-	background-color:red;
-	height:100px;
-	width:50px;
+body{
+    background: #fff;
+    margin: 0;
+    color: #464646;
+    font: 300 13px/20px 'Open Sans',sans-serif;
+    height: 100%;
 }
+
+#header {
+    position: relative;
+    top: 0;
+    left: 0;
+    background: url("/home/manish/Downloads/projects-html and Css/shutterburg pro1/resume/images/p.jpg") top center no-repeat fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.container{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background:rgba(0,0,0,.8);
+}
+img{
+	width:240px;
+	height: 240px;
+	border: 1px solid rgba(0,0,0,.3);
+	border-radius: 50%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+	margin-left: 10px 0;
+	font-size: 24px;
+	letter-spacing: 2px;
+	color: white;
+	text-align: center;
+}
+div{
+	display: block;
+}
+.row{
+	margin: 0;
+	padding: 0;
+}
+.col-sm-6{
+	width: 50%;
+	float: left;
+	position: relative;
+}
+.left{
+	height: 529px;
+	background: #fff;
+	float: left;
+	padding: 60px 40px;
+	margin: 0;
+	width: 591px;
+}
+.right{
+	height: 649px;
+	background:url("/home/manish/Downloads/projects-html and Css/shutterburg pro1/resume/images/s.jpg") no-repeat;
+	background-size: cover;
+	padding: 0;
+	float: right;
+	width: 615px;
+}
+
+h2{
+	margin: 0 0 45px;
+	color: #141414;
+	font-size: 25px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-family: inherit;
+	font-weight: 400;
+	/*line-height: 1.1;*/
+    border-bottom: thin solid #141414; 
+    bottom: -5px; 
+    padding-bottom: 5px;
+}
+.resume-box{
+	padding: 0;
+}
+ul{
+	margin-top: 0;
+	margin-bottom: 10px;
+	display: block;
+}
+.resume-box li{
+	margin-bottom: 40px;
+	list-style-type: none;
+}
+.year {
+    float: left;
+    width: 150px;
+    padding: 0 20px;
+    border-right: 1px solid #dcdcdc;
+    text-align: center;
+}
+.box-content{
+	padding: 1px 20px;
+	padding-left: 150px;
+	text-align: center;
+}
+h4{
+	font-size: 13px;
+	color: #141414;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+}
+.resume-box span {
+    color: #b4b4b4;
+    font-weight: 400;
+    font-style: italic;
+}
+.black-layer{
+	background: rgba(0,0,0,0.5);
+	height: 589px;
+	width: 555px;
+	padding-top: 60px;
+	padding-left: 40px;
+	padding-right: 20px;
+}
+
+.tablediv{
+padding-top: 30px;
+}
+.expleft{
+	height: 649px;
+	background: url("/home/manish/Downloads/projects-html and Css/shutterburg pro1/resume/images/bg.jpg") no-repeat;
+	background-size: cover;
+	float: left;
+	width: 673px;
+}
+.expright{
+	height: 529px;
+	background:#fff;
+	padding: 60px 40px;
+	float: right;
+	width: 533px;
+}
+.whitelayer{
+	background:rgba(255,255,255,.9);
+	height: 529px;
+	width: 603px;
+	padding: 60px 30px 60px 40px;
+	margin:0;
+}
+.headingsty{
+	margin: 0 0 45px;
+	color: #333333;
+	font-size: 25px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-family: inherit;
+	font-weight: 400;
+	/*line-height: 1.1;*/
+    border-bottom: thin solid #333333; 
+    bottom: -5px; 
+    padding-bottom: 5px; 
+}
+
+.projbox{
+	padding: 0;
+}
+.projbox li{
+	margin-bottom: 40px;
+	list-style-type: none;
+}
+.protitle{
+	float: left;
+    width: 90px;
+    padding: 0 20px;
+    border-right: 1px solid #dcdcdc;
+    text-align: center;
+}
+.prodes{
+	padding: 1px 20px;
+	padding-left: 150px;
+	text-align: left;
+}
+.info li {
+    list-style-type: none;
+    margin-bottom: 25px;
+}
+.info i {
+   position: relative;
+}
+
