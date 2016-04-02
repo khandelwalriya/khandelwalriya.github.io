@@ -1,0 +1,22 @@
+<!-- <table>
+    <thead>
+        <tr>
+            <th>Questions</th>
+            <th>Answer1</th>
+            <th>Answer2</th>
+	    <th>Answer3</th>
+	<th>Answer4</th>
+<th>correct Answer</th>
+        </tr>
+    <thead>
+    <tbody data-bind="foreach: pors">
+        <tr height="50">
+            <td data-bind="text: questions" style="width:50%"></td>
+            <td data-bind="text: a" style="width:10%"></td>
+            <td data-bind="text: b" style="width:10%"></td>
+		<td data-bind="text: c" style="width:10%"></td>
+		<td data-bind="text: d" style="width:10%"></td>
+		<td data-bind="text: answer" style="width:10%"></td>
+        </tr>
+    </tbody>
+</table> -->

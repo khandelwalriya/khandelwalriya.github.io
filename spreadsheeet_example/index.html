@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>GoogleSpreadSheet example</title>
+	<link type="text/css" rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+
+<div clas="que" data-bind="foreach: pors">
+	<h4 data-bind="text: questions"></h4>
+
+	<ul>
+	<li>
+	<input type="radio" class="quizans" name="quizansrad" value="1" data-bind="checked: radioSelectedOptionValue"></input>
+	 <label data-bind="text: a"></label> 
+	</li>
+	<li>
+	<input type="radio" class="quizans" name="quizansrad" value="2" data-bind="checked: radioSelectedOptionValue"></input>
+	<label data-bind="text: b"></label> 
+	</li>
+	<li>
+	<input type="radio" class="quizans" name="quizansrad" value="3" data-bind="checked: radioSelectedOptionValue"></input>
+	<label data-bind="text: c"></label> 
+	</li>
+	<li>
+	<input type="radio" class="quizans" name="quizansrad" value="4" data-bind="checked: radioSelectedOptionValue"></input>
+	<label data-bind="text: d"></label> 
+	</li>
+	<li>
+	<p>Correct Answer- <label data-bind="text: answer"></label></p>	
+	</li>
+	</ul>
+	<!-- <p>You have selected: <span data-bind="text:radioSelectedOptionValue "></span></p> -->
+</div>
+ 
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.0/knockout-min.js"></script>
+        <script src="script.js"></script>
+
+    </body>
+</html>
